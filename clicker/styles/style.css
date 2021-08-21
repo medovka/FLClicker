@@ -1,0 +1,87 @@
+html {
+    font-size: 20px; 
+    font-family: Hahmlet;
+  }
+#imghead {
+    float: left;
+    padding-left: 20px;
+   }
+#texthead {
+    color: #2B331F;
+    margin-left: 85px;
+}
+#header {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#mainblock {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+div.flblock {
+    width: 290px;
+    height: 500px;
+    position: relative;
+    border: 2px solid #546747;
+}
+button.flower {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+    right: 5%;
+    bottom: 1%;
+}
+#listblock {
+    width: 470px;
+    height: 500px;
+    background-color: rgba(187, 200, 186, 0.6);
+    border: 2px solid #546747;
+    position: relative;
+    text-align: center;
+}
+#textlist {
+    font-size: 15px;
+    background-color: rgba(253, 220, 165, 0.5);
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-top: 0%;
+}
+#kolvoP {
+    margin: 0;
+}
+button.active {
+    background-color: #FDDCA5;
+    border: 2px solid #FAB73D;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: Hahmlet;
+    cursor: pointer;
+}
+button.passive {
+    background-color: #FDDCA5;
+    border: 2px solid #FAB73D;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: Hahmlet;
+    cursor: pointer;
+}
+button.active:hover{
+    background-color: #F2D19B;
+}
+button.passive:hover{
+    background-color: #F2D19B;
+}
+#decorblock {
+    padding-right: 0%;
+    margin: 0%;
+}

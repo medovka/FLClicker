@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower</title>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&family=Playfair+Display:ital@1&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+         background: #BBC8BA url(images/bgr-main.jpg);
+         color: #2B331F;
+        }
+        div.flblock {
+            background-image: url(images/flower.png);
+        }
+        button.flower:hover {
+        background-image: url(images/fl-hover.png);
+        }
+       </style>
+</head>
+<body>
+    <header>
+        <div id="imghead">
+            <img src="images/fl-head.png" width="60" height="60">
+        </div>
+        <div id="texthead">
+            <h1>Flower Clicker</h1>
+        </div>
+    </header>
+
+    <div id="mainblock">
+        <div class="flblock">
+            <button type="button" onClick="flClicks()" class="flower">
+                <img src="images/fl.png" height="420px">
+            </button>
+        </div>
+
+        <div id="listblock">
+            <img src="images/shapka-up.png" width="470" id="shapkaFlower">
+            <p id="kolvoP">Количество пыльцы: <a id="allPollen">0</a></p>
+            <img src="images/okantovka.png" width="470" id="okantovka">
+            <p id="textlist">
+                <button type="button" onclick="activeClicks()" class="active">Количество пыльцы за клик: +<a id="active">1</a>
+                    <p>стоимость: <b id="prisePollenActive">50</b> пыльцы</p>
+                </button>
+            </p>
+            <img src="images/okantovka-2.png" width="470" id="okantovka">
+            <p id="textlist">
+                <button type="button" onclick="passiveClicks()"  class="active">Количество падающей пыльцы: <a id="passive">0</a> / сек
+                    <p>стоимость: <b id="prisePollenPassive">500</b> пыльцы</p>
+                </button>
+            </p>
+            </ul>
+        <img src="images/bottom.png" width="470" height="48">
+        </div>
+
+        <div id="decorblock">
+            <img src="images/2.png" height="504px">
+        </div>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
